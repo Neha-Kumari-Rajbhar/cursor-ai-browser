@@ -49,16 +49,21 @@ User Prompt → Gemini AI → React Code Generation → Sandbox Execution → Li
 ```bash
 AI-Website-Builder/
 │
-├── frontend/
-│   ├── components/
-│   ├── pages/
-│   └── sandbox/
+├── client/
+|   ├── src/
+│       ├── components/
+│       ├── utils/
+│       |── App.jsx
+|       |── main.jsx
+|       |── Home.jsx
 │
-├── backend/
+├── server/
 │   ├── routes/
 │   ├── controllers/
-│   ├── services/
-│   └── ai/
+│   ├── config/
+│   └── models/
+|   |── genai.js
+|   |── server.js
 │
 └── README.md
 ```

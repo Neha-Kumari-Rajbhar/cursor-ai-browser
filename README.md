@@ -92,7 +92,7 @@ Separated frontend, backend, and AI service layers for maintainability and scala
 
 ```bash
 # Clone repository
-git clone <your-repo-link>
+git clone <https://github.com/Neha-Kumari-Rajbhar/cursor-ai-browser/>
 
 # Navigate to project
 cd ai-website-builder
